@@ -1,0 +1,22 @@
+/* mobile-view */
+@media screen and (max-width:576px) {
+       .nav-bar{
+        flex-direction: column;
+       }
+       
+       .nav-menus{
+        flex-direction: column;
+       }
+}
+
+
+
+
+
+/* tablet-view */
+@media screen and (min-width:577px) and (max-width:768px) {
+    .nav-bar{
+        flex-direction: column;
+       }
+       
+}

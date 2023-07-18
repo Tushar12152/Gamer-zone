@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav-bar-style */
+
+.nav-bar{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav-logo{
+    display:flex;
+    gap:20px;
+    margin-top:38px;
+    
+}
+.nav-img{
+    width:95px;
+    object-fit: cover;
+}
+.logo-text{
+    text-align: center;
+    font-size:2.3rem;
+    font-weight: 600;
+    color:#0B0223;
+}
+.logo-text span{
+    color:#FF42A5;
+}
+.nav-menus{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+    list-style: none;
+    margin-top: 54px;
+}
+.nav-menus>li>a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.nav-button{
+    padding:17px 24px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.fa-brands{
+    color:#F61C0D;
+}
+#tiktok{
+    color:#000
+}
