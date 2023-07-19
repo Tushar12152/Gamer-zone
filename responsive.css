@@ -52,7 +52,13 @@
               text-align:center;
              
           }
-
+          .play-title{
+            text-align: center;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 60px;
+            margin-left:0px;
+          }
           .play-image{
               width:80%;
               position:relative;
@@ -149,6 +155,17 @@
           .play-container{
             flex-direction: column-reverse;
         }
+        .play-description{
+            padding-bottom:30px;
+        }
+        .play-title{
+            text-align: center;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 60px;
+            margin-left:0px;
+           
+          }
         .play-text{
             text-align: center;
         }

@@ -275,6 +275,7 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    margin-left: 100px;
 }
 .play-description{
   
@@ -288,11 +289,11 @@
     width: 600px;
 }
 .play-image-small{
-    width: 200px;
-    height:200px;
+    width: 100px;
+    height:100px;
     position:relative;
-    right:690px;
-    top:65px;
+    right:640px;
+    top:30px;
 }
 
 /* games-store-section */
