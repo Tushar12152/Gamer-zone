@@ -48,14 +48,154 @@
     font-weight: 500;
 
 }
+.nav-menus>li:hover{
+    background-color: #FF42A5;
+    border:1px solid gray;
+    padding:3px;
+    border-radius: 5px;
+}
 .nav-button{
-    padding:17px 24px;
+    padding:10px 20px;
     font-size: 18px;
     font-weight: 500;
+}
+.nav-button:hover{
+    background-color: #FF42A5;
+   border-radius: 5px;
 }
 .fa-brands{
     color:#F61C0D;
 }
 #tiktok{
     color:#000
+}
+
+/* banner-section */
+.banner-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.banner-img{
+    width:100%;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-title2{
+    text-align: center;
+    font-size:5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-description1, .banner-description2, .banner-description3{
+    color: #534C64;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top:10px;
+}
+#play-icon{
+   padding:0px;
+   border:2px solid gray;
+   border-radius:50%;
+   color:#FF42A5
+}
+#download-icon{
+    color:#FF42A5
+}
+
+.banner-button1{
+    border-radius: 48px;
+    background:#FF42A5;
+    padding:10px 20px;
+    color: #FFF;
+    font-size:17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-button1:hover{
+    background-color: #4EC5F7;
+    cursor:pointer;
+}
+.banner-button2{
+    border-radius: 48px;
+    background:#4EC5F7;
+    padding:10px 20px;
+    color: #FFF;
+    font-size:17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-button2:hover{
+    background-color: #FF42A5;
+    cursor:pointer;
+}
+.banner-buttons{
+    margin-top:20px;
+}
+.banner-container{
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size:50%;
+    width:100%;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+/* gamer-section-style */
+
+.gamer-container{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    width:100%;
+    padding:45px 200px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-img{
+    width:100%;
+}
+.gamer-text{
+    text-align:right;
+    margin-right:0px;
+}
+.gamer-title{
+   
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-description{
+    color: #534C64;
+    font-size:1.1rem;   
+    font-weight: 400;
+    line-height: 20px;
+    margin:10px 0px;
+}
+.gamer-button{
+    border-radius: 48px;
+    background:#FF42A5 ;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding:15px;
+    margin:10px;
+}
+.gamer-button:hover{
+    background-color: #4EC5F7;
+    cursor: pointer;
 }

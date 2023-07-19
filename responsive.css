@@ -7,6 +7,25 @@
        .nav-menus{
         flex-direction: column;
        }
+       .banner-container{
+          flex-direction: column-reverse;
+          gap:40px;
+       }
+
+       .gamer-container{
+              flex-direction:column;
+              gap:40px;
+              width:100%;
+              padding:0;
+       }
+       .gamer-img{
+              width:100%;
+              height:100%;
+              object-fit: cover;
+          }
+          .gamer-text{
+              text-align:center;
+          }
 }
 
 
@@ -18,5 +37,16 @@
     .nav-bar{
         flex-direction: column;
        }
-       
+       .banner-container{
+              flex-direction: column;
+              gap:50px;
+           }
+
+           .gamer-container{
+              flex-direction:column-reverse;
+              gap:40px;
+              width:100%;
+              padding:0;
+       }
+
 }
