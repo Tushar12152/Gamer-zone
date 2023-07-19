@@ -44,6 +44,26 @@
               font-size:8px;
               font-weight: 400;
           }
+
+          .play-container{
+              flex-direction: column;
+          }
+          .play-text{
+              text-align: center;
+          }
+
+          .play-image{
+              width:100%;
+              position:relative;
+           
+          }
+          .play-image-small{
+              max-width: 100px;
+              max-height: 100px;
+              position:static;
+              margin-top:-10px;
+             
+          }
 }
 
 
@@ -84,5 +104,25 @@
               font-size:16px;
               font-weight: 400;
           }
+          .play-container{
+            flex-direction: column-reverse;
+        }
+        .play-text{
+            text-align: center;
+        }
+
+        .play-image{
+            width:100%;
+            position:relative;
+         
+        }
+        .play-image-small{
+            max-width: 100px;
+            max-height: 100px;
+            position:static;
+            margin-top:-10px;
+           
+        }
+}
 
 }

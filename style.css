@@ -232,10 +232,64 @@
 .card-image{
     width:100%
 }
+.fa-circle-play{
+    background-color:white;
+    font-size: 30px;
+    position:relative;
+    border-radius: 50%;
+    bottom:160px;
+    left:100px;
+    display:none;
+
+}
+ .card-image:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+/* .card-image:hover>.fa-circle-play{
+    opacity:0.5;
+    cursor:pointer;
+    display:block;
+} */
+
 
 .card-caption{
     color: #534C64;
     font-size:12px;
     font-weight: 400;
     line-height:26px;
+}
+
+/* play-instantly-section */
+.play-container{
+    display:flex;
+    gap:100px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.play-title{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-description{
+  
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.play-image{
+    width: 600px;
+}
+.play-image-small{
+    width: 200px;
+    height:200px;
+    position:relative;
+    right:690px;
+    top:65px;
 }
