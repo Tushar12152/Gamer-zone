@@ -26,6 +26,24 @@
           .gamer-text{
               text-align:center;
           }
+
+          .card-container{
+              grid-template-columns: repeat(1,1fr);
+              gap:30px;
+              margin:80px 100px;
+          
+          }
+          .online-games-title, .text-color{
+              
+           
+              font-size:30px;
+              font-weight:700;
+              margin-top:120px;
+          }
+          .card-caption{
+              font-size:8px;
+              font-weight: 400;
+          }
 }
 
 
@@ -48,5 +66,23 @@
               width:100%;
               padding:0;
        }
+
+       .card-container{
+              grid-template-columns: repeat(2,1fr);
+              gap:30px;
+              margin:80px 100px;
+          
+          }
+          .online-games-title, .text-color{
+              
+           
+              font-size:30px;
+              font-weight:700;
+              margin-top:120px;
+          }
+          .card-caption{
+              font-size:16px;
+              font-weight: 400;
+          }
 
 }
