@@ -76,12 +76,15 @@
     display:flex;
     align-items: center;
     justify-content: space-around;
+     padding:0px 0px 0px 200px;
+     gap:250px;
     width:100%;
     fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 }
 
 .banner-img{
-    width:100%;
+    width:70%;
+   
 }
 .banner-title{
     color: #0B0223;
